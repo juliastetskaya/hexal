@@ -43,7 +43,21 @@
       <section class="get-in-touch">
         <h2 class="title">Get in touch</h2>
         <p class="info">In order to get in touch use the contact form below:</p>
-        <!--Will be form here-->
+        <form class="get-in-touch-form" action="https://echo.htmlacademy.ru" method="POST">
+          <p class="get-in-touch-item">
+            <input type="text" name="name" value="" placeholder="Name (Required)" required>
+          </p>
+          <p class="get-in-touch-item">
+            <input type="email" name="email" value="" placeholder="Email (Required)" required>
+          </p>
+          <p class="get-in-touch-item">
+            <input type="text" name="subject" value="" placeholder="Subject">
+          </p> 
+          <p class="get-in-touch-item">
+            <textarea name="message" cols="30" rows="10" placeholder="Write your message here..."></textarea>
+          </p>
+          <button class="button" type="submit">Send</button>
+        </form>
         <p class="description">Quisque Hendrerit: purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus morbi vitae</p>
         <ul class="contacts">
           <li class="address">Elm St. 14/05 Lost City</li>
