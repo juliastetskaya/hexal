@@ -6,70 +6,203 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/normalize.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   </head>
   <body>
-    <header class="main-header">
+    <header class="main-header wide-container">
       <nav class="main-nav">
         <img src="assets/img/logo.png" width="64" height="55" alt="Logo Hexal">
         <ul class="site-nav">
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="about.html">About</a></li>
+          <li><a href="#portfolio" class="current">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
           <li><a href="blog.html">Blog</a></li>
-          <li><a href="get-in-touch.html">Get in touch</a></li>
+          <li><a href="#get-in-touch">Get in touch</a></li>
         </ul>
       </nav>
     </header>
-    <main class="container">
+    <main>
       <h1 class="visually-hidden">Personal blog of Smith Anderson</h1>
-      <section class="portfolio">
-        <h2 class="visually-hidden">Portfolio</h2>
-        <!--Images will be add in CSS-->
-      </section>
-      <section class="about">
-        <h2 class="name">Smith Anderson</h2>
-        <img src="assets/img/author.jpg" width="180" height="206" alt="Photo of Smith Anderson" class="photo-author">
-        <p class="profession">Illustrator & Character Designer</p>
-        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna. Integer gravida, diam congue molestie fringilla, elit odio rhoncus turpis, ac dictum libero elit vel metus. Morbi egestas sit amet velit eget venenatis. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna</p>
-        <div class="social">
-          <ul class="social-btn">
-            <li class="social-btn-fb"><a href="#">Facebook</a></li>
-            <li class="social-btn-tw"><a href="#">Twitter</a></li>
-            <li class="social-btn-google"><a href="#">Google+</a></li>
-            <li class="social-btn-pint"><a href="#">Pinterest</a></li>
-            <li class="social-btn-link"><a href="#">Linkedin</a></li>
-            <li class="social-btn-drib"><a href="#">Dribbble</a></li>
+      <section class="portfolio" id="portfolio">
+        <div class="wide-container">
+          <div class="decor-line-1"></div>
+          <h2 class="visually-hidden">Portfolio</h2>
+          <ul class="portfolio-list">
+            <li class="portfolio-item">
+              <div class="hex">
+                <img src="assets/img/hex1.jpg" alt="Smith Anderson's project one" width="180" height="208">
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <div class="hex">
+                <img src="assets/img/hex2.jpg" alt="Smith Anderson's project two" width="180" height="208">
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <div class="hex">
+                <img src="assets/img/hex3.jpg" alt="Smith Anderson's project three" width="180" height="208">
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <div class="hex">
+                <img src="assets/img/hex4.jpg" alt="Smith Anderson's project four" width="221" height="221">
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <div class="hex">
+                <img src="assets/img/hex5.jpg" alt="Smith Anderson's project five" width="180" height="208">
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <div class="hex">
+                <img src="assets/img/hex6.jpg" alt="Smith Anderson's project six" width="180" height="208">
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <div class="hex">
+                <img src="assets/img/hex7.jpg" alt="Smith Anderson's project seven" width="180" height="208">
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <div class="hex">
+                <img src="assets/img/hex8.jpg" alt="Smith Anderson's project eight" width="180" height="208">
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <div class="hex">
+                <img src="assets/img/hex9.jpg" alt="Smith Anderson's project nine" width="180" height="208">
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <div class="hex">
+                <img src="assets/img/hex10.jpg" alt="Smith Anderson's project ten" width="180" height="208">
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <div class="hex">
+                <img src="assets/img/hex11.jpg" alt="Smith Anderson's project eleven" width="180" height="208">
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <div class="hex">
+                <img src="assets/img/hex12.jpg" alt="Smith Anderson's project twelve" width="180" height="208">
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <div class="hex">
+                <img src="assets/img/hex13.jpg" alt="Smith Anderson's project thirteen" width="180" height="208">
+              </div>
+            </li>
           </ul>
+          <ul class="pagination-list">
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li class="current-item"><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+          </ul>
+          <div class="decor-line-2"></div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="container">
+          <div class="photo-author">
+            <div class="hex">
+              <img src="assets/img/author.jpg" alt="Photo Smith Anderson" width="424" height="207">
+            </div>
+          </div>
+          <div class="wrapper">
+            <h2 class="name">Smith Anderson</h2>
+            <p class="profession">Illustrator & Character Designer</p>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna. Integer gravida, diam congue molestie fringilla, elit odio rhon- cus turpis, ac dictum libero elit vel metus. Morbi egestas sit amet velit eget venenatis. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna</p>
+            <div class="social">
+              <ul class="social-btn">
+                <li class="social-btn-fb">
+                  <a href="https://www.facebook.com/" target="_blank">
+                    <span class="visually-hidden">Facebook</span>
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="social-btn-tw">
+                  <a href="https://www.twitter.com/" target="_blank">
+                  <span class="visually-hidden">Twitter</span>
+                  <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="social-btn-google">
+                  <a href="https://plus.google.com" target="_blank">
+                    <span class="visually-hidden">Google+</span>
+                    <svg style="enable-background:new 0 0 100 100;" height="21" width="21" version="1.1" viewBox="0 0 100 100" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <path fill="#00ab94" d="M69.8,31.6v8h-2.7v-8h-8v-2.6h8v-8h2.7v8h8v2.6H69.8z M49.5,24.7c3.1,1.8,4.7,5.4,4.7,9.3c0,3.7-2,6.6-4.9,8.8   c-2.8,2.2-3.3,3.1-3.3,5c0,1.6,3.3,3.9,4.9,5.1c5.4,4,6.4,6.5,6.4,11.5c0.1,6.7-6.8,12.5-17.7,12.5c-9.6,0-17.7-4.4-17.7-10.6   c0-9.4,6.7-12.5,16.3-12.5c1.1,0,2,0,3,0c-1.3-1.3-2.4-2.4-2.4-4.3c0-1.2,0.4-2.2,0.9-3.2c-0.5,0-1.1,0.1-1.6,0.1   c-7.9,0-12.5-5.5-12.5-12.5c0-6.8,7-12.9,15.4-12.9c4.3,0,16.6,0,16.6,0l-3.7,3.8H49.5z M39.7,58.2c-6.1,0-11.2,2.3-11.2,6.6   c0,4.4,4.5,8,10.8,8c8.8,0,11.9-3.4,11.9-7.8c0-0.5,0-1.1-0.2-1.6C48.9,58.2,42,58.2,39.7,58.2z M47.2,34.7   c-0.7-5.5-3.5-9.7-7.7-9.8c-4.2-0.1-8,3.7-7.2,9.3c0.7,5.5,4.8,9.2,9,9.4C45.5,43.7,47.9,40.3,47.2,34.7z"/>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-btn-pint">
+                  <a href="https://www.pinterest.com/" target="_blank">
+                  <span class="visually-hidden">Pinterest</span>
+                  <i class="fab fa-pinterest-p"></i>
+                  </a>
+                </li>
+                <li class="social-btn-link">
+                  <a href="https://linkedin.com/" target="_blank">
+                    <span class="visually-hidden">Linkedin</span>
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+                <li class="social-btn-drib">
+                  <a href="https://dribbble.com/" target="_blank">
+                    <span class="visually-hidden">Dribbble</span>
+                    <i class="fab fa-dribbble"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
     </main>
-    <footer class="main-footer">
+    <footer class="main-footer" id="get-in-touch">
       <section class="get-in-touch">
-        <h2 class="title">Get in touch</h2>
-        <p class="info">In order to get in touch use the contact form below:</p>
-        <form class="get-in-touch-form" action="https://echo.htmlacademy.ru" method="POST">
-          <p class="get-in-touch-item">
-            <input type="text" name="name" value="" placeholder="Name (Required)" required>
-          </p>
-          <p class="get-in-touch-item">
-            <input type="email" name="email" value="" placeholder="Email (Required)" required>
-          </p>
-          <p class="get-in-touch-item">
-            <input type="text" name="subject" value="" placeholder="Subject">
-          </p> 
-          <p class="get-in-touch-item">
-            <textarea name="message" cols="30" rows="10" placeholder="Write your message here..."></textarea>
-          </p>
-          <button class="button" type="submit">Send</button>
-        </form>
-        <p class="description"><span>Quisque Hendrerit:</span> purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus morbi vitae</p>
-        <p class="contacts">
-          <span class="address">Elm St. 14/05 Lost City</span><br>
-          <span class="phone">+ 3528 331 86 35</span><br>
-          <span class="email">info@hexalcorp.com</span>
-        </p>
+        <div class="container">
+          <h2 class="title">Get in touch</h2>
+          <p class="info">In order to get in touch use the contact form below:</p>
+          <div class="wrapper">
+            <form class="get-in-touch-form" action="https://echo.htmlacademy.ru" method="POST">
+              <p class="get-in-touch-item">
+                <label class="visually-hidden" for="name-field">Name (Required)</label>
+                <input type="text" name="name" value="" id="name-field" placeholder="Name (Required)" required>
+              </p>
+              <p class="get-in-touch-item">
+                <label class="visually-hidden" for="email-field">Email (Required)</label>
+                <input type="email" name="email" value="" id="email-field" placeholder="Email (Required)" required>
+              </p>
+              <p class="get-in-touch-item">
+                <label class="visually-hidden" for="subject-field">Subject</label>
+                <input type="text" name="subject" value="" id="subject-field" placeholder="Subject">
+              </p> 
+              <p class="get-in-touch-item">
+                <label class="visually-hidden" for="message-field">Message</label>
+                <textarea name="message" cols="30" rows="6" id="message-field" placeholder="Write your message here..."></textarea>
+              </p>
+              <button class="button" type="submit">Send</button>
+            </form>
+            <div class="wrapper">
+              <p class="description"><span>Quisque Hendrerit:</span> purus dapi- bus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus morbi vitae</p>
+              <p class="contacts">
+                <a href="https://goo.gl/maps/sh4sCgKEfFw" target="_blank" class="address">Elm St. 14/05 Lost City</a>
+                <a href ="tel:+35283318635" class="phone">+ 3528 331 86 35</a>
+                <a href="mailto:info@hexalcorp.com" class="email">info@hexalcorp.com</a>
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
-      <p class="copyright">© Copyright 2013 by PSDchat</p>
+      <div class="copyright">
+        <div class="wide-container">
+          <p>&copy; Copyright 2013 by PSDchat</p>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
